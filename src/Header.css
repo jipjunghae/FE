@@ -1,0 +1,22 @@
+.header {
+    background-color: #068053;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-icons span {
+    margin: 0 15px; /* 아이콘 간의 간격을 15px로 설정 */
+    cursor: pointer;
+}
+
+
+.logo {
+    position: relative;
+    top: -10px; /* 상단 바 위로 10px 올림 */
+    z-index: 1; /* 상단 바 위로 겹쳐 보이도록 설정 */
+    height: 50px; /* 필요에 따라 높이를 조정 */
+    left: 10px;
+}
