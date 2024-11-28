@@ -1,0 +1,48 @@
+.header {
+    background-color: #068053;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-icons span {
+    margin: 0 15px; /* 아이콘 간의 간격을 15px로 설정 */
+    cursor: pointer;
+}
+
+
+.logo {
+    position: relative;
+    top: -10px; /* 상단 바 위로 10px 올림 */
+    z-index: 1; /* 상단 바 위로 겹쳐 보이도록 설정 */
+    height: 50px; /* 필요에 따라 높이를 조정 */
+    left: 10px;
+}
+.dropdown {
+    position: absolute;
+    top: 60px; /* 헤더 아래 위치 */
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    z-index: 100;
+}
+
+.notification-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+}
+
+.notification-item:hover {
+    background-color: #f7f7f7;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}

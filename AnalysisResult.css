@@ -1,0 +1,64 @@
+.analysis-result {
+    padding: 20px;
+    background-color: #f8f9fa; /* 밝은 배경색 */
+    border-radius: 10px; /* 둥근 모서리 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    max-width: 800px;
+    margin: 0 auto; /* 페이지 가운데 정렬 */
+}
+
+.analysis-result h3 {
+    font-size: 2rem; /* 큰 제목 폰트 크기 */
+    font-weight: bold; /* 굵은 글씨 */
+    color: #343a40; /* 짙은 텍스트 색 */
+    margin-bottom: 20px;
+    text-align: center; /* 제목 가운데 정렬 */
+}
+
+.analysis-result h4 {
+    font-size: 1.5rem; /* 중간 제목 크기 */
+    color: #495057; /* 약간 밝은 텍스트 색 */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.analysis-result ul {
+    list-style: none; /* 리스트 스타일 제거 */
+    padding-left: 0;
+}
+
+.analysis-result li {
+    font-size: 1rem; /* 리스트 아이템 폰트 크기 */
+    color: #212529; /* 일반 텍스트 색 */
+    margin-bottom: 8px;
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6; /* 리스트 아래 선 */
+}
+
+.analysis-result li:last-child {
+    border-bottom: none; /* 마지막 리스트 아래 선 제거 */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* 파란색 버튼 */
+    color: white; /* 흰색 텍스트 */
+    border: none;
+    border-radius: 5px; /* 둥근 모서리 */
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #0056b3; /* 더 짙은 파란색 */
+}
+
+.analysis-result p {
+    font-size: 1.2rem; /* 일반 텍스트보다 약간 큰 폰트 크기 */
+    line-height: 1.6; /* 줄 간격 */
+    color: #495057;
+}
